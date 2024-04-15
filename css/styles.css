@@ -17,5 +17,45 @@ ul {
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Barlow', sans-serif;
+  background-color: aqua;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Fraunces', serif;
+}
+.header {
+  position: relative;
+  background-image: url(../assets/images/mobile/image-header.jpg);
+  background-size: cover;
+  width: 375px;
+  height: 538px;
+  padding-inline: 24px;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  position: absolute;
+  left: 0;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 6.25px;
+  color: white;
+  text-align: center;
+  top: 110px;
+}
+.arrow {
+  position: absolute;
+  content: '';
+  left: 173px;
+  top: 294px;
+  width: 30px;
+  height: 107px;
 }
