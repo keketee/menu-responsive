@@ -50,6 +50,49 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+.menu {
+  position: relative;
+  background-color: white;
+  width: 329px;
+  height: 305px;
+  text-align: center;
+  padding: 39px 95px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  top: 50px;
+}
+.menu::after {
+  position: absolute;
+  content: '';
+  width: 24px;
+  height: 24px;
+  left: 305px;
+  top: -24px;
+  background-image: linear-gradient(
+    to right bottom,
+    transparent 50%,
+    white 50%
+  );
+}
+
+.main-menu--item {
+  font-weight: 600;
+  font-size: 20px;
+  color: #808397;
+  line-height: 25px;
+}
+.main-menu--contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 140px;
+  height: 56px;
+  border-radius: 28px;
+  background-color: #fbd600;
+  color: #24303e;
+}
+
 .title {
   position: absolute;
   left: 0;
@@ -87,6 +130,7 @@ h3 {
 }
 .section__egg {
   max-width: 1440px;
+
   display: flex;
   flex-direction: column;
 }
@@ -94,6 +138,7 @@ h3 {
   .section__egg {
     display: flex;
     flex-direction: row-reverse;
+    height: 600px;
   }
 }
 
@@ -131,10 +176,23 @@ h3 {
 }
 
 .button__egg {
+  position: relative;
+  line-height: 25px;
+  letter-spacing: 1px;
   font-weight: 900;
   font-size: 15px;
   color: #24303e;
-  border-bottom: 15px solid #fad4003c;
+  font-family: 'Fraunces', serif;
+}
+.button__egg::after {
+  position: absolute;
+  content: '';
+  width: 137px;
+  height: 10px;
+  border-radius: 28px;
+  background-color: rgba(250, 212, 0, 0.249);
+  top: 10px;
+  left: -10px;
 }
 
 .section__lamp {
@@ -178,8 +236,21 @@ h3 {
   color: #24303e;
 }
 .button__lamp {
+  position: relative;
+  line-height: 25px;
+  letter-spacing: 1px;
   font-weight: 900;
   font-size: 15px;
   color: #24303e;
-  border-bottom: 15px solid rgba(254, 120, 102, 0.251);
+  font-family: 'Fraunces', serif;
+}
+.button__lamp::after {
+  position: absolute;
+  content: '';
+  width: 137px;
+  height: 10px;
+  border-radius: 28px;
+  background-color: rgba(254, 120, 102, 0.251);
+  left: -10px;
+  top: 10px;
 }

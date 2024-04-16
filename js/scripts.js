@@ -1,16 +1,13 @@
-const buttonMenuElement = document.getElementById('button-menu');
+const toggleMenuElement = document.getElementById('toggle-menu');
 const menuElement = document.getElementById('menu');
 
-// classList.contains;
-// classList.add;
-// classList.remove;
 
 function handleMenu() {
-  if (menuElement.classList.contains('show')) {
-    menuElement.classList.remove('show');
+  if (menuElement.classList.contains('menu')) {
+    menuElement.classList.remove('menu');
   } else {
-    menuElement.classList.add('show');
+    menuElement.classList.add('menu');
   }
 }
 
-buttonMenuElement.addEventListener('click', handleMenu);
+toggleMenuElement.addEventListener('click', handleMenu);
