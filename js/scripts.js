@@ -1,12 +1,11 @@
 const toggleMenuElement = document.getElementById('toggle-menu');
 const menuElement = document.getElementById('menu');
 
-
 function handleMenu() {
-  if (menuElement.classList.contains('menu')) {
-    menuElement.classList.remove('menu');
+  if (menuElement.classList.contains('show')) {
+    menuElement.classList.remove('show');
   } else {
-    menuElement.classList.add('menu');
+    menuElement.classList.add('show');
   }
 }
 
