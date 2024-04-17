@@ -26,7 +26,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ![Captura del proyecto](https://github.com/keketee/menu-responsive/blob/main/design%206/desktop-design.jpg)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://github.com/keketee/menu-responsive/blob/main/design%206/mobile-design.jpg)
 ![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
 
 ## Autor ✒️
