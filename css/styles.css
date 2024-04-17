@@ -452,3 +452,35 @@ h3 {
   color: #a7aaad;
   margin-bottom: 64px;
 }
+.image__gallery {
+  display: grid;
+  grid-template-columns: 188px 188px;
+}
+
+@media screen and (min-width: 768px) {
+  .image__gallery {
+    display: flex;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  width: 375px;
+  height: 350px;
+  padding: 64px 39px 80px;
+  background-color: #90d4c6;
+}
+.footer__container {
+  display: flex;
+  gap: 57px;
+}
+.footer__info {
+  color: #458d7e;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.13px;
+}
