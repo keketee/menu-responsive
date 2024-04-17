@@ -473,6 +473,23 @@ h3 {
   padding: 64px 39px 80px;
   background-color: #90d4c6;
 }
+@media screen and (min-width: 768px) {
+  .footer {
+    width: 1440px;
+    height: 350px;
+  }
+}
+.footer__title {
+  width: 170px;
+  height: 33px;
+}
+@media (hover: hover) {
+  .footer__title:hover {
+    filter: invert(39%) sepia(19%) saturate(1092%) hue-rotate(118deg)
+      brightness(96%) contrast(94%);
+  }
+}
+
 .footer__container {
   display: flex;
   gap: 57px;
@@ -483,4 +500,24 @@ h3 {
   font-weight: 600;
   line-height: 25px;
   letter-spacing: -0.13px;
+}
+
+@media (hover: hover) {
+  .image__logo:hover {
+    filter: invert(90%) sepia(91%) saturate(34%) hue-rotate(197deg)
+      brightness(200%) contrast(200%);
+  }
+}
+
+@media (hover: hover) {
+  .footer__info:hover {
+    color: #ffffff;
+  }
+}
+
+.footer__logo {
+  display: flex;
+  position: relative;
+  gap: 28px;
+  top: 88px;
 }
