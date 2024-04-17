@@ -4,7 +4,7 @@
 
 ## Ejemplo en vivo
 
-- [URL-de-github-pages-de-este-proyecto](https://github.com/keketee/menu-responsive.git)
+- [https://github.com/keketee/menu-responsive.git](https://github.com/keketee/menu-responsive.git)
 
 ## Descripción 📑
 
