@@ -29,7 +29,7 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 ![Captura del proyecto](https://github.com/keketee/menu-responsive/blob/main/design%206/mobile-design.jpg)
 ![Captura del proyecto](https://github.com/keketee/menu-responsive/blob/main/design%206/mobile-menu.jpg)
 ![Captura del proyecto](https://github.com/keketee/menu-responsive/blob/main/design%206/active-states.jpg)
-(https://github.com/keketee/menu-responsive/blob/main/design%206/active-states.jpg)
+
 
 ## Autor ✒️
 
